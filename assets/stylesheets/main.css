@@ -262,7 +262,9 @@ background: linear-gradient(to right, rgb(255,255,250) 0%, rgb(255,255,253) 71%,
 
 .resume .btn{
     font-size: 130%;
-    padding: 5% 5% 5% 5%;
+    padding: 5% 15% 5% 15%;
+    /* margin-right: 45% !important; */
+    margin-left: 105% !important;
 }
 
 .progress-title h4{
@@ -1379,7 +1381,7 @@ transform-origin: right;
     position: relative;
     background: #333;
     width: 210px;
-    height: 46vh;
+    height: 20vh;
     border-radius: 6px;
     /* padding: 2rem; */
     margin-bottom: 20px;
@@ -1389,11 +1391,12 @@ transform-origin: right;
     overflow: hidden;
   }
   .card__image-container img {
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
   }
-    .card__image-container {
+    /* .card__image-container {
       margin: -2rem -2rem 1rem -2rem;
-    }
+    } */
     
     .card__line {
     opacity: 0;
@@ -1419,12 +1422,12 @@ transform-origin: right;
       background-color: #333;
       animation: ContentFadeIn .8s 1.6s forwards;
     }
-    
+/*     
     .card__svg {
       position: absolute;
       left: 0;
       top: 90px;
-    }
+    } */
   
   @keyframes LineFadeIn {
     0% { opacity: 0; d: path("M 0 300 Q 0 300 0 300 Q 0 300 0 300 C 0 300 0 300 0 300 Q 0 300 0 300 "); stroke: #fff; }
